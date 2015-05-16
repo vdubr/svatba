@@ -47,7 +47,7 @@
     <!-- Three columns of text below the carousel -->
 
     <div class="row">
-      <div class='container col-md-4 col-md-offset-4 col-sm-12 center-block' id="speach">
+      <div class='container col-md-4 col-md-offset-4 col-sm-12 col-lg-4 col-lg-offset-4' id="speach">
         <p class='lead'>
           Tak jsme do toho po letech prásknuli. </br>
           Budeme moc rádi když se setkáme na svatebním obřadu konaném v 13:15 v muzeu východních čech.
@@ -69,13 +69,13 @@
       </div>
     </div><!-- /.row -->
     <div class="row">
-      <div class='col-md-4 col-md-offset-4 col-sm-12 container center-block' id="questionar">
+      <div class='col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-12 container' id="questionar">
           <p class='lead'>
             Pokud jsi dostal pozvánku na svatební párty,</br>
             tak nám prosím vyplň pár informací do dotazníku. </br>
             Jestli vás příjde víc, tak budeme rádi za vyplnění pro každou osobu.</br>
           </p>
-          <a class="btn btn-lg btn-success" style='margin-top: 40px;' href="#" role="button" onClick='window.open("http://goo.gl/forms/YSSBYfUijJ", "_blank")'>Dotazník</a>
+          <a class="questionar btn btn-lg btn-success" style='margin-top: 40px;' href="#" role="button">Dotazník</a>
       </div>
 
     </div><!-- /.row -->
@@ -85,5 +85,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script>
+    $('a.questionar').on('click', function(){
+      window.open("http://goo.gl/forms/YSSBYfUijJ", "_blank")
+});
+    </script>
   </body>
 </html>
