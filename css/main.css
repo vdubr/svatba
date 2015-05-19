@@ -75,6 +75,7 @@ div#home{
 }
 
 .last-row{
+  padding-top:50px;
   padding-bottom:150px;
 }
 
@@ -93,4 +94,11 @@ div#home{
 .text-muted {
   color: #777;
   margin:20px 0px;
+}
+
+#gifts img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
 }
